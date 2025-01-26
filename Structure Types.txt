@@ -1,0 +1,15 @@
+Church
+Commercial Building Multi Story
+Commercial Building Single Story
+Infrastructure
+Mixed Commercial/Residential
+Mobile Home Double Wide
+Mobile Home Single Wide
+Mobile Home Triple Wide
+Motor Home
+Multi Family Residence Multi Story
+Multi Family Residence Single Story
+School
+Single Family Residence Multi Story
+Single Family Residence Single Story
+Utility Misc Structure

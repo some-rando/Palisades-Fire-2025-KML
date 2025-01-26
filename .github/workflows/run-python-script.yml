@@ -1,0 +1,38 @@
+name: Run GeoJSON to KML Conversion
+
+on:
+  schedule:
+    - cron: "0 6,10,14,18 * * *'  # This runs at 6 AM, 10 AM, 2 PM, and 6 PM
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install requests
+
+      - name: Download latest GeoJSON data
+        run: |
+          curl -L "https://gis.data.cnra.ca.gov/api/download/v1/items/c336759e45764c45861a1e62c4c5e2db/geojson?layers=0" -o DINS_2025_Palisades_Public_View.geojson
+
+      - name: Run conversion script
+        run: python process_geojson_to_kml.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add damage_assessments.kml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update KML file" && git push)
