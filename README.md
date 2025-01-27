@@ -2,6 +2,9 @@
 
 This script converts CAL FIRE's Damage Inspection (DINS) data for the 2025 Palisades Fire from GeoJSON format to a color-coded KML file for visualization in Google Earth or Google Earth Pro. This script changes the visual style of the original data from CAL FIRE by grouping the structures by type and damage level, using different icons for different structure types, and color coding the icons to indicate the amount of damage.
 
+# Update 2025-01-27:
+[This is possibly a better source than what this script/KML gives you since it already has the color coding, plus includes links to photos of the actual damage.](https://recovery.lacounty.gov/palisades-fire/) The primary differences are that the this source doesn't show a satellite view, doesn't visually show the structure type without clicking on the structure, it doesn't allow you to select what structure types or damage levels you want to filter, and it doesn't seem to be able to be viewed in Google Earth Pro. It's otherwise very good. A similar map is also available for the [Eaton Fire](https://recovery.lacounty.gov/eaton-fire/).
+
 # Notice: If you're here to cast blame, or spread misinformation or conspiracy theories, or act in any way that could be considered unhelpful, disrespectful, illegal, or immoral - please leave. This is not the place for that, nor is any other place.
 
 # Disclaimer
