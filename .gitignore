@@ -29,7 +29,7 @@ venv/
 .venv/
 
 # Output files
-damage_assessment.kml
+damage_assessments.kml
 
 # IDE
 .idea/

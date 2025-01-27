@@ -1,10 +1,10 @@
-# Create a virtual environment
+# Before running the script, create a virtual environment via the terminal:
     # python3 -m venv .
     # source ./bin/activate
-    # python3 -m pip install xyz
 
-import simplekml
 import json
+import xml.etree.ElementTree as ET
+from datetime import datetime
 
 # Define color mapping (KML uses aabbggrr format)
 DAMAGE_COLORS = {
@@ -17,71 +17,82 @@ DAMAGE_COLORS = {
 
 # Group structures by their icon type and scale
 ICON_GROUPS = {
-    "residential": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png",
+    "mobile_home": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/mobile-home.png",
         "types": [
             "Mobile Home Double Wide",
             "Mobile Home Single Wide",
-            "Mobile Home Triple Wide",
-            "Single Family Residence Multi Story",
-            "Single Family Residence Single Story"
+            "Mobile Home Triple Wide"
         ],
         "scale": 0.6
     },
-    "residential_multi": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png",
-        "types": [
-            "Multi Family Residence Multi Story",
-            "Multi Family Residence Single Story"
-        ],
-        "scale": 0.7
+    "single_family_single": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/single-family-single.png",
+        "types": ["Single Family Residence Single Story"],
+        "scale": 0.6
     },
-    "commercial": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/buildings.png",
-        "types": [
-            "Commercial Building Single Story",
-            "Mixed Commercial/Residential"
-        ],
+    "single_family_multi": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/single-family-multi.png",
+        "types": ["Single Family Residence Multi Story"],
+        "scale": 0.6
+    },
+    "multi_family_single": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/multi-family-single.png",
+        "types": ["Multi Family Residence Single Story"],
+        "scale": 0.6
+    },
+    "multi_family_multi": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/multi-family-multi.png",
+        "types": ["Multi Family Residence Multi Story"],
+        "scale": 0.6
+    },
+    "commercial_single": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/commercial-building.png",
+        "types": ["Commercial Building Single Story"],
         "scale": 0.6
     },
     "commercial_multi": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/buildings.png",
-        "types": [
-            "Commercial Building Multi Story"
-        ],
-        "scale": 0.7
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/commercial-building-multi.png",
+        "types": ["Commercial Building Multi Story"],
+        "scale": 0.6
+    },
+    "mixed": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/mixed-use.png",
+        "types": ["Mixed Commercial/Residential"],
+        "scale": 0.6
     },
     "church": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/church.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/church.png",
         "types": ["Church"],
         "scale": 0.6
     },
     "school": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/schools.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/school.png",
         "types": ["School"],
         "scale": 0.6
     },
     "infrastructure": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/triangle.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/infrastructure.png",
         "types": ["Infrastructure"],
         "scale": 0.6
     },
     "utility": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/square.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/utility.png",
         "types": ["Utility Misc Structure"],
         "scale": 0.6
     },
-    "vehicle": {
-        "icon": "http://maps.google.com/mapfiles/kml/shapes/truck.png",
+    "motor_home": {
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/motor-home.png",
         "types": ["Motor Home"],
         "scale": 0.6
     }
 }
 
 def create_kml_from_geojson(input_file, output_file):
-    # Create KML object
-    kml = simplekml.Kml()
-    doc = kml.newdocument(name="Damage Assessments")
+    # Create KML root element
+    kml = ET.Element('kml', xmlns="http://www.opengis.net/kml/2.2")
+    doc = ET.SubElement(kml, 'Document')
+    doc.append(ET.Comment(f'Generated on {datetime.now().isoformat()}'))
     
     # Create mapping of structure types to their icon group
     structure_to_group = {}
@@ -89,31 +100,34 @@ def create_kml_from_geojson(input_file, output_file):
         for structure_type in group_info["types"]:
             structure_to_group[structure_type] = group_name
     
-    # Create folders for each structure type and damage level
-    folders = {}
-    for struct_type in structure_to_group.keys():
-        type_folder = doc.newfolder(name=struct_type)
-        folders[struct_type] = {}
-        for damage_type in DAMAGE_COLORS.keys():
-            damage_folder = type_folder.newfolder(name=damage_type)
-            folders[struct_type][damage_type] = damage_folder
-    
-    # Create shared styles for each icon group and damage combination
-    shared_styles = {}
+    # Define styles for each damage type and structure combination
     for group_name, group_info in ICON_GROUPS.items():
         for damage_type, damage_color in DAMAGE_COLORS.items():
-            style = simplekml.Style()
-            style.iconstyle.icon.href = group_info["icon"]
-            style.iconstyle.color = damage_color
-            style.iconstyle.scale = group_info["scale"]
-            doc.styles.append(style)
-            shared_styles[(group_name, damage_type)] = style
+            style = ET.SubElement(doc, 'Style', 
+                                id=f"{group_name}_{damage_type.replace(' ', '_').replace('(', '').replace(')', '').replace('%', '').replace('-', '')}")
+            icon_style = ET.SubElement(style, 'IconStyle')
+            ET.SubElement(icon_style, 'color').text = damage_color
+            ET.SubElement(icon_style, 'scale').text = str(group_info["scale"])
+            icon = ET.SubElement(icon_style, 'Icon')
+            ET.SubElement(icon, 'href').text = group_info["icon"]
     
-    # Read GeoJSON file
+    # Create structure type folders
+    folders = {}
+    for struct_type in structure_to_group.keys():
+        folder = ET.SubElement(doc, 'Folder')
+        ET.SubElement(folder, 'name').text = struct_type
+        damage_folders = {}
+        for damage_type in DAMAGE_COLORS.keys():
+            damage_folder = ET.SubElement(folder, 'Folder')
+            ET.SubElement(damage_folder, 'name').text = damage_type
+            damage_folders[damage_type] = damage_folder
+        folders[struct_type] = damage_folders
+    
+    # Read and process GeoJSON
     with open(input_file, 'r') as f:
         geojson_data = json.load(f)
     
-    # Process each feature
+    # Process features
     for feature in geojson_data['features']:
         properties = feature['properties']
         geometry = feature['geometry']
@@ -122,25 +136,26 @@ def create_kml_from_geojson(input_file, output_file):
         damage = properties['DAMAGE']
         coordinates = geometry['coordinates']
         
-        # Create placemark in appropriate subfolder
         if structure_type in folders:
-            pnt = folders[structure_type][damage].newpoint(
-                coords=[(coordinates[0], coordinates[1])]
-            )
+            # Create placemark
+            placemark = ET.SubElement(folders[structure_type][damage], 'Placemark')
             
-            # Remove name to avoid labels
-            pnt.name = ""
-            
-            # Use shared style based on icon group
+            # Style reference
             group_name = structure_to_group[structure_type]
-            pnt.style = shared_styles[(group_name, damage)]
+            style_id = f"{group_name}_{damage.replace(' ', '_').replace('(', '').replace(')', '').replace('%', '').replace('-', '')}"
+            ET.SubElement(placemark, 'styleUrl').text = f"#{style_id}"
             
-            # Simplified description
-            pnt.description = f"""{structure_type}
-{damage}"""
+            # Description
+            ET.SubElement(placemark, 'description').text = f"{structure_type}\n{damage}"
+            
+            # Point coordinates
+            point = ET.SubElement(placemark, 'Point')
+            ET.SubElement(point, 'coordinates').text = f"{coordinates[0]},{coordinates[1]}"
     
-    # Save the KML file
-    kml.save(output_file)
+    # Write KML file
+    tree = ET.ElementTree(kml)
+    ET.indent(tree, space="  ")
+    tree.write(output_file, encoding='UTF-8', xml_declaration=True)
 
 if __name__ == "__main__":
     input_file = "DINS_2025_Palisades_Public_View.geojson"
