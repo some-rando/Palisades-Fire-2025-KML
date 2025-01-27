@@ -28,9 +28,6 @@ wheels/
 venv/
 .venv/
 
-# Output files
-damage_assessments.kml
-
 # IDE
 .idea/
 .vscode/
