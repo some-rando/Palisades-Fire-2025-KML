@@ -1,3 +1,5 @@
+Icons in this directory were sourced from the following websites, but were altered to have their black pixels inverted to white while retaining transparency. This was done only to make it so that Google Earth Pro can apply a color tint to the icon to indicate the damage level.
+
 For Churches:
 <a href="https://www.flaticon.com/free-icons/church" title="church icons">Church icons created by Freepik - Flaticon</a> ![Church](church.png)
 [Specific Link](https://www.flaticon.com/free-icon/church_3472533)

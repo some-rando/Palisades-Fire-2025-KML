@@ -99,3 +99,5 @@ python process_geojson_to_kml.py
 This source data for this project uses data from CAL FIRE which has its Rights listed as "No restrictions on public use".
 
 This script is licensed under the MIT License - see the LICENSE file for details.
+
+See [Icon_Sources.md](icons/Icon_Sources.md) for more information on the icons used in this project.

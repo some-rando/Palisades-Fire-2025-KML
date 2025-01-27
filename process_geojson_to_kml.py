@@ -18,7 +18,7 @@ DAMAGE_COLORS = {
 # Group structures by their icon type and scale
 ICON_GROUPS = {
     "mobile_home": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/mobile-home.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/mobile-home.png",
         "types": [
             "Mobile Home Double Wide",
             "Mobile Home Single Wide",
@@ -27,62 +27,62 @@ ICON_GROUPS = {
         "scale": 0.6
     },
     "single_family_single": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/single-family-single.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/single-family-residence-single-story.png",
         "types": ["Single Family Residence Single Story"],
         "scale": 0.6
     },
     "single_family_multi": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/single-family-multi.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/single-family-residence-multi-story.png",
         "types": ["Single Family Residence Multi Story"],
         "scale": 0.6
     },
     "multi_family_single": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/multi-family-single.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/multi-family-residence-single-story.png",
         "types": ["Multi Family Residence Single Story"],
         "scale": 0.6
     },
     "multi_family_multi": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/multi-family-multi.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/multi-family-residence-multi-story.png",
         "types": ["Multi Family Residence Multi Story"],
         "scale": 0.6
     },
     "commercial_single": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/commercial-building.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/commercial-building-single-story.png",
         "types": ["Commercial Building Single Story"],
         "scale": 0.6
     },
     "commercial_multi": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/commercial-building-multi.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/commercial-building-multi-story.png",
         "types": ["Commercial Building Multi Story"],
         "scale": 0.6
     },
     "mixed": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/mixed-use.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/mixed-commercial-residential.png",
         "types": ["Mixed Commercial/Residential"],
         "scale": 0.6
     },
     "church": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/church.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/church.png",
         "types": ["Church"],
         "scale": 0.6
     },
     "school": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/school.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/school.png",
         "types": ["School"],
         "scale": 0.6
     },
     "infrastructure": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/infrastructure.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/infrastructure.png",
         "types": ["Infrastructure"],
         "scale": 0.6
     },
     "utility": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/utility.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/utility-misc-structure.png",
         "types": ["Utility Misc Structure"],
         "scale": 0.6
     },
     "motor_home": {
-        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/main/icons/motor-home.png",
+        "icon": "https://raw.githubusercontent.com/some-rando/Palisades-Fire-2025-KML/refs/heads/main/icons/motor-home.png",
         "types": ["Motor Home"],
         "scale": 0.6
     }
