@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <!--Generated on 2025-01-29T18:26:29.529856-->
+    <!--Generated on 2025-01-30T06:26:33.271002-->
     <Style id="mobile_home_No_Damage">
       <IconStyle>
         <color>ff00ff00</color>
@@ -1441,6 +1441,14 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.538401856374,34.0385692286096</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#mobile_home_Destroyed_&gt;50</styleUrl>
+          <description>Mobile Home Double Wide
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.593929121689,34.0576109685126</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -3834,6 +3842,14 @@ No Damage</description>
           <description>Single Family Residence Single Story
 No Damage</description>
           <Point>
+            <coordinates>-118.510317640594,34.0506585587983</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
             <coordinates>-118.512726909609,34.0470885224512</coordinates>
           </Point>
         </Placemark>
@@ -4235,6 +4251,14 @@ No Damage</description>
 No Damage</description>
           <Point>
             <coordinates>-118.622546912494,34.043615777807</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
+            <coordinates>-118.570928629307,34.0447219937951</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -4714,6 +4738,14 @@ No Damage</description>
           <description>Single Family Residence Single Story
 No Damage</description>
           <Point>
+            <coordinates>-118.549922161496,34.0616334317385</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
             <coordinates>-118.569592757224,34.0456965484247</coordinates>
           </Point>
         </Placemark>
@@ -4787,6 +4819,14 @@ No Damage</description>
 No Damage</description>
           <Point>
             <coordinates>-118.547679033198,34.0595453012518</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
+            <coordinates>-118.549909499742,34.0601205340725</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -4987,6 +5027,14 @@ No Damage</description>
 No Damage</description>
           <Point>
             <coordinates>-118.543884790186,34.0574663038965</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
+            <coordinates>-118.543583391035,34.0569299707449</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -5282,6 +5330,14 @@ No Damage</description>
           <description>Single Family Residence Single Story
 No Damage</description>
           <Point>
+            <coordinates>-118.544120033806,34.0570286789244</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
             <coordinates>-118.547717235852,34.0585324532726</coordinates>
           </Point>
         </Placemark>
@@ -5347,6 +5403,22 @@ No Damage</description>
 No Damage</description>
           <Point>
             <coordinates>-118.60525040506,34.0387130805789</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
+            <coordinates>-118.549056991351,34.0594455064715</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
+            <coordinates>-118.547113036178,34.0588337129458</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -10938,6 +11010,14 @@ No Damage</description>
           <description>Single Family Residence Single Story
 No Damage</description>
           <Point>
+            <coordinates>-118.522575116713,34.0339164886347</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_No_Damage</styleUrl>
+          <description>Single Family Residence Single Story
+No Damage</description>
+          <Point>
             <coordinates>-118.522897068419,34.033913383577</coordinates>
           </Point>
         </Placemark>
@@ -12013,14 +12093,6 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.510317640594,34.0506585587983</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.573512705985,34.0462050268103</coordinates>
           </Point>
         </Placemark>
@@ -12173,14 +12245,6 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.570928629307,34.0447219937951</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.571307438082,34.044645667156</coordinates>
           </Point>
         </Placemark>
@@ -12222,14 +12286,6 @@ Affected (1-9%)</description>
 Affected (1-9%)</description>
           <Point>
             <coordinates>-118.573841393259,34.0427111552215</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.577058050984,34.0433762747053</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -12317,6 +12373,14 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
+            <coordinates>-118.569750291182,34.0449581249455</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_Affected_19</styleUrl>
+          <description>Single Family Residence Single Story
+Affected (1-9%)</description>
+          <Point>
             <coordinates>-118.623638768907,34.0405805934067</coordinates>
           </Point>
         </Placemark>
@@ -12373,14 +12437,6 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.549922161496,34.0616334317385</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.559054612541,34.0427952182647</coordinates>
           </Point>
         </Placemark>
@@ -12390,14 +12446,6 @@ Affected (1-9%)</description>
 Affected (1-9%)</description>
           <Point>
             <coordinates>-118.549474077341,34.0614045635226</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.549909499742,34.0601205340725</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -12453,23 +12501,7 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.543583391035,34.0569299707449</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.54333553956,34.0560933117889</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.543112094413,34.0563185616973</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -12541,14 +12573,6 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.544120033806,34.0570286789244</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.549174819774,34.0514804504384</coordinates>
           </Point>
         </Placemark>
@@ -12557,23 +12581,7 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.549056991351,34.0594455064715</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.548356840826,34.0588781213404</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.547113036178,34.0588337129458</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -13429,6 +13437,14 @@ Affected (1-9%)</description>
           <description>Single Family Residence Single Story
 Affected (1-9%)</description>
           <Point>
+            <coordinates>-118.632418060773,34.0631828179628</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_Affected_19</styleUrl>
+          <description>Single Family Residence Single Story
+Affected (1-9%)</description>
+          <Point>
             <coordinates>-118.547536290001,34.0512046200254</coordinates>
           </Point>
         </Placemark>
@@ -13550,14 +13566,6 @@ Affected (1-9%)</description>
 Affected (1-9%)</description>
           <Point>
             <coordinates>-118.536351540671,34.0466691030105</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Affected_19</styleUrl>
-          <description>Single Family Residence Single Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.522575116713,34.0339164886347</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -13952,6 +13960,14 @@ Minor (10-25%)</description>
           <description>Single Family Residence Single Story
 Minor (10-25%)</description>
           <Point>
+            <coordinates>-118.577058050984,34.0433762747053</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_Minor_1025</styleUrl>
+          <description>Single Family Residence Single Story
+Minor (10-25%)</description>
+          <Point>
             <coordinates>-118.573820014254,34.0453934310881</coordinates>
           </Point>
         </Placemark>
@@ -13969,14 +13985,6 @@ Minor (10-25%)</description>
 Minor (10-25%)</description>
           <Point>
             <coordinates>-118.572313799135,34.0435197738851</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Minor_1025</styleUrl>
-          <description>Single Family Residence Single Story
-Minor (10-25%)</description>
-          <Point>
-            <coordinates>-118.569750291182,34.0449581249455</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -14041,6 +14049,14 @@ Minor (10-25%)</description>
 Minor (10-25%)</description>
           <Point>
             <coordinates>-118.54342862838,34.0567563942573</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_Minor_1025</styleUrl>
+          <description>Single Family Residence Single Story
+Minor (10-25%)</description>
+          <Point>
+            <coordinates>-118.543112094413,34.0563185616973</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -26686,14 +26702,6 @@ Destroyed (&gt;50%)</description>
           <description>Single Family Residence Single Story
 Destroyed (&gt;50%)</description>
           <Point>
-            <coordinates>-118.524347606855,34.0503534354607</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_single_Destroyed_&gt;50</styleUrl>
-          <description>Single Family Residence Single Story
-Destroyed (&gt;50%)</description>
-          <Point>
             <coordinates>-118.524399422578,34.0505642806794</coordinates>
           </Point>
         </Placemark>
@@ -29567,6 +29575,14 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.521202973354,34.0439211680491</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_Destroyed_&gt;50</styleUrl>
+          <description>Single Family Residence Single Story
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.519857538705,34.0428565171741</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -33764,6 +33780,14 @@ No Damage</description>
           <description>Single Family Residence Multi Story
 No Damage</description>
           <Point>
+            <coordinates>-118.570962016991,34.0480509555</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_No_Damage</styleUrl>
+          <description>Single Family Residence Multi Story
+No Damage</description>
+          <Point>
             <coordinates>-118.642028230496,34.0408381853688</coordinates>
           </Point>
         </Placemark>
@@ -34436,6 +34460,14 @@ No Damage</description>
           <description>Single Family Residence Multi Story
 No Damage</description>
           <Point>
+            <coordinates>-118.549353845027,34.0544504934188</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_No_Damage</styleUrl>
+          <description>Single Family Residence Multi Story
+No Damage</description>
+          <Point>
             <coordinates>-118.64460230084,34.0423898118532</coordinates>
           </Point>
         </Placemark>
@@ -34828,6 +34860,14 @@ No Damage</description>
           <description>Single Family Residence Multi Story
 No Damage</description>
           <Point>
+            <coordinates>-118.527607213033,34.0394863877406</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_No_Damage</styleUrl>
+          <description>Single Family Residence Multi Story
+No Damage</description>
+          <Point>
             <coordinates>-118.52749423192,34.0393599134238</coordinates>
           </Point>
         </Placemark>
@@ -34949,6 +34989,14 @@ No Damage</description>
 No Damage</description>
           <Point>
             <coordinates>-118.547080352773,34.0607482755352</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_No_Damage</styleUrl>
+          <description>Single Family Residence Multi Story
+No Damage</description>
+          <Point>
+            <coordinates>-118.546790587704,34.0616709920631</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -35525,6 +35573,14 @@ No Damage</description>
 No Damage</description>
           <Point>
             <coordinates>-118.527966417874,34.0424444936529</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_No_Damage</styleUrl>
+          <description>Single Family Residence Multi Story
+No Damage</description>
+          <Point>
+            <coordinates>-118.527998577562,34.042296294215</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -43052,14 +43108,6 @@ No Damage</description>
           <description>Single Family Residence Multi Story
 No Damage</description>
           <Point>
-            <coordinates>-118.650102554171,34.0659706539852</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_No_Damage</styleUrl>
-          <description>Single Family Residence Multi Story
-No Damage</description>
-          <Point>
             <coordinates>-118.65131790019,34.0664518498953</coordinates>
           </Point>
         </Placemark>
@@ -47612,6 +47660,14 @@ No Damage</description>
           <description>Single Family Residence Multi Story
 No Damage</description>
           <Point>
+            <coordinates>-118.602049998757,34.0675037221831</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_No_Damage</styleUrl>
+          <description>Single Family Residence Multi Story
+No Damage</description>
+          <Point>
             <coordinates>-118.599555661979,34.0678505085669</coordinates>
           </Point>
         </Placemark>
@@ -50164,6 +50220,14 @@ No Damage</description>
           <description>Single Family Residence Multi Story
 No Damage</description>
           <Point>
+            <coordinates>-118.556671470127,34.0408503299095</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_No_Damage</styleUrl>
+          <description>Single Family Residence Multi Story
+No Damage</description>
+          <Point>
             <coordinates>-118.531379529726,34.0539873432249</coordinates>
           </Point>
         </Placemark>
@@ -50535,14 +50599,6 @@ Affected (1-9%)</description>
           <description>Single Family Residence Multi Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.570962016991,34.0480509555</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Affected_19</styleUrl>
-          <description>Single Family Residence Multi Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.53149492036,34.0382496092148</coordinates>
           </Point>
         </Placemark>
@@ -50823,23 +50879,7 @@ Affected (1-9%)</description>
           <description>Single Family Residence Multi Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.527607213033,34.0394863877406</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Affected_19</styleUrl>
-          <description>Single Family Residence Multi Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.562116911853,34.0438993816126</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Affected_19</styleUrl>
-          <description>Single Family Residence Multi Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.546790587704,34.0616709920631</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -50960,14 +51000,6 @@ Affected (1-9%)</description>
 Affected (1-9%)</description>
           <Point>
             <coordinates>-118.544936054427,34.0569080767594</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Affected_19</styleUrl>
-          <description>Single Family Residence Multi Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.527998577562,34.042296294215</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -51495,7 +51527,7 @@ Affected (1-9%)</description>
           <description>Single Family Residence Multi Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.557437926202,34.0748159461956</coordinates>
+            <coordinates>-118.557385002856,34.0749132636909</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -52543,14 +52575,6 @@ Affected (1-9%)</description>
           <description>Single Family Residence Multi Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.602049998757,34.0675037221831</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Affected_19</styleUrl>
-          <description>Single Family Residence Multi Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.546612416748,34.0461149641051</coordinates>
           </Point>
         </Placemark>
@@ -52999,14 +53023,6 @@ Affected (1-9%)</description>
           <description>Single Family Residence Multi Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.556671470127,34.0408503299095</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Affected_19</styleUrl>
-          <description>Single Family Residence Multi Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.537757908944,34.0476519314436</coordinates>
           </Point>
         </Placemark>
@@ -53275,14 +53291,6 @@ Minor (10-25%)</description>
 Minor (10-25%)</description>
           <Point>
             <coordinates>-118.549658657776,34.0641082502671</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Minor_1025</styleUrl>
-          <description>Single Family Residence Multi Story
-Minor (10-25%)</description>
-          <Point>
-            <coordinates>-118.549353845027,34.0544504934188</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -58873,14 +58881,6 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.527834450868,34.0427531238549</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Destroyed_&gt;50</styleUrl>
-          <description>Single Family Residence Multi Story
-Destroyed (&gt;50%)</description>
-          <Point>
-            <coordinates>-118.527738341014,34.042728184744</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -74784,14 +74784,6 @@ Destroyed (&gt;50%)</description>
           <description>Single Family Residence Multi Story
 Destroyed (&gt;50%)</description>
           <Point>
-            <coordinates>-118.540307657402,34.045123430651</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#single_family_multi_Destroyed_&gt;50</styleUrl>
-          <description>Single Family Residence Multi Story
-Destroyed (&gt;50%)</description>
-          <Point>
             <coordinates>-118.540476307114,34.0450575586552</coordinates>
           </Point>
         </Placemark>
@@ -77360,6 +77352,14 @@ No Damage</description>
           <description>Multi Family Residence Multi Story
 No Damage</description>
           <Point>
+            <coordinates>-118.535989118963,34.0492064543967</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#multi_family_multi_No_Damage</styleUrl>
+          <description>Multi Family Residence Multi Story
+No Damage</description>
+          <Point>
             <coordinates>-118.543136152195,34.0512677691084</coordinates>
           </Point>
         </Placemark>
@@ -78251,14 +78251,6 @@ Affected (1-9%)</description>
           <description>Multi Family Residence Multi Story
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.535989118963,34.0492064543967</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#multi_family_multi_Affected_19</styleUrl>
-          <description>Multi Family Residence Multi Story
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.543069347182,34.0484649696111</coordinates>
           </Point>
         </Placemark>
@@ -78423,14 +78415,6 @@ Minor (10-25%)</description>
 Minor (10-25%)</description>
           <Point>
             <coordinates>-118.62030322185,34.0376994484884</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#multi_family_multi_Minor_1025</styleUrl>
-          <description>Multi Family Residence Multi Story
-Minor (10-25%)</description>
-          <Point>
-            <coordinates>-118.554410021587,34.0402412881669</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -80710,14 +80694,6 @@ Destroyed (&gt;50%)</description>
           <description>Commercial Building Single Story
 Destroyed (&gt;50%)</description>
           <Point>
-            <coordinates>-118.519857538705,34.0428565171741</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#commercial_single_Destroyed_&gt;50</styleUrl>
-          <description>Commercial Building Single Story
-Destroyed (&gt;50%)</description>
-          <Point>
             <coordinates>-118.523584610192,34.0458033219036</coordinates>
           </Point>
         </Placemark>
@@ -81076,6 +81052,14 @@ No Damage</description>
           <description>Commercial Building Multi Story
 No Damage</description>
           <Point>
+            <coordinates>-118.584770404804,34.0385153289082</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#commercial_multi_No_Damage</styleUrl>
+          <description>Commercial Building Multi Story
+No Damage</description>
+          <Point>
             <coordinates>-118.560480384424,34.0403382121359</coordinates>
           </Point>
         </Placemark>
@@ -81168,14 +81152,6 @@ Affected (1-9%)</description>
 Affected (1-9%)</description>
           <Point>
             <coordinates>-118.553456494049,34.0422964453213</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#commercial_multi_Affected_19</styleUrl>
-          <description>Commercial Building Multi Story
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.584770404804,34.0385153289082</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -81423,6 +81399,14 @@ Affected (1-9%)</description>
       </Folder>
       <Folder>
         <name>Minor (10-25%)</name>
+        <Placemark>
+          <styleUrl>#mixed_Minor_1025</styleUrl>
+          <description>Mixed Commercial/Residential
+Minor (10-25%)</description>
+          <Point>
+            <coordinates>-118.554410021587,34.0402412881669</coordinates>
+          </Point>
+        </Placemark>
       </Folder>
       <Folder>
         <name>Major (26-50%)</name>
@@ -83727,6 +83711,14 @@ No Damage</description>
 No Damage</description>
           <Point>
             <coordinates>-118.547182285507,34.0545108290184</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#utility_No_Damage</styleUrl>
+          <description>Utility Misc Structure
+No Damage</description>
+          <Point>
+            <coordinates>-118.528549593377,34.0385148718471</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -86390,6 +86382,14 @@ No Damage</description>
           <description>Utility Misc Structure
 No Damage</description>
           <Point>
+            <coordinates>-118.540432443277,34.0452200907544</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#utility_No_Damage</styleUrl>
+          <description>Utility Misc Structure
+No Damage</description>
+          <Point>
             <coordinates>-118.535714486913,34.04586479058</coordinates>
           </Point>
         </Placemark>
@@ -87545,14 +87545,6 @@ Affected (1-9%)</description>
           <description>Utility Misc Structure
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.528549593377,34.0385148718471</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#utility_Affected_19</styleUrl>
-          <description>Utility Misc Structure
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.544606829062,34.0492530062233</coordinates>
           </Point>
         </Placemark>
@@ -87833,14 +87825,6 @@ Affected (1-9%)</description>
           <description>Utility Misc Structure
 Affected (1-9%)</description>
           <Point>
-            <coordinates>-118.632418060773,34.0631828179628</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#utility_Affected_19</styleUrl>
-          <description>Utility Misc Structure
-Affected (1-9%)</description>
-          <Point>
             <coordinates>-118.518428646973,34.0464776564967</coordinates>
           </Point>
         </Placemark>
@@ -87882,14 +87866,6 @@ Affected (1-9%)</description>
 Affected (1-9%)</description>
           <Point>
             <coordinates>-118.625757280215,34.0718521910069</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#utility_Affected_19</styleUrl>
-          <description>Utility Misc Structure
-Affected (1-9%)</description>
-          <Point>
-            <coordinates>-118.540432443277,34.0452200907544</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -88250,14 +88226,6 @@ Minor (10-25%)</description>
       </Folder>
       <Folder>
         <name>Major (26-50%)</name>
-        <Placemark>
-          <styleUrl>#utility_Major_2650</styleUrl>
-          <description>Utility Misc Structure
-Major (26-50%)</description>
-          <Point>
-            <coordinates>-118.531841167003,34.0401262010917</coordinates>
-          </Point>
-        </Placemark>
         <Placemark>
           <styleUrl>#utility_Major_2650</styleUrl>
           <description>Utility Misc Structure
@@ -92499,6 +92467,14 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.522228500862,34.0457365646763</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#utility_Destroyed_&gt;50</styleUrl>
+          <description>Utility Misc Structure
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.524347606855,34.0503534354607</coordinates>
           </Point>
         </Placemark>
         <Placemark>
@@ -97381,14 +97357,6 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.612437142929,34.0692004445847</coordinates>
-          </Point>
-        </Placemark>
-        <Placemark>
-          <styleUrl>#motor_home_Destroyed_&gt;50</styleUrl>
-          <description>Motor Home
-Destroyed (&gt;50%)</description>
-          <Point>
-            <coordinates>-118.593929121689,34.0576109685126</coordinates>
           </Point>
         </Placemark>
         <Placemark>
