@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <!--Generated on 2025-01-30T18:26:11.596642-->
+    <!--Generated on 2025-01-31T06:27:24.407310-->
     <Style id="mobile_home_No_Damage">
       <IconStyle>
         <color>ff00ff00</color>
@@ -53330,6 +53330,14 @@ Affected (1-9%)</description>
             <coordinates>-118.518219646217,34.0351354340722</coordinates>
           </Point>
         </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_Affected_19</styleUrl>
+          <description>Single Family Residence Multi Story
+Affected (1-9%)</description>
+          <Point>
+            <coordinates>-118.557497126078,34.0748002743696</coordinates>
+          </Point>
+        </Placemark>
       </Folder>
       <Folder>
         <name>Minor (10-25%)</name>
@@ -87385,6 +87393,14 @@ No Damage</description>
             <coordinates>-118.506626985911,34.0532743492474</coordinates>
           </Point>
         </Placemark>
+        <Placemark>
+          <styleUrl>#utility_No_Damage</styleUrl>
+          <description>Utility Misc Structure
+No Damage</description>
+          <Point>
+            <coordinates>-118.5244119415,34.0485399805917</coordinates>
+          </Point>
+        </Placemark>
       </Folder>
       <Folder>
         <name>Affected (1-9%)</name>
@@ -97195,6 +97211,14 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.522475280768,34.0544513453921</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#utility_Destroyed_&gt;50</styleUrl>
+          <description>Utility Misc Structure
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.557467615523,34.074644000167</coordinates>
           </Point>
         </Placemark>
       </Folder>
