@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <!--Generated on 2025-02-12T14:18:34.348609-->
+    <!--Generated on 2025-02-12T18:27:30.927563-->
     <Style id="mobile_home_No_Damage">
       <IconStyle>
         <color>ff00ff00</color>
@@ -33071,6 +33071,14 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.520108250416,34.0448328661141</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_single_Destroyed_&gt;50</styleUrl>
+          <description>Single Family Residence Single Story
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.524686979589,34.0514553657813</coordinates>
           </Point>
         </Placemark>
       </Folder>
@@ -76107,6 +76115,14 @@ Destroyed (&gt;50%)</description>
             <coordinates>-118.518383250954,34.0394389551515</coordinates>
           </Point>
         </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_Destroyed_&gt;50</styleUrl>
+          <description>Single Family Residence Multi Story
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.527477241185,34.038110096328</coordinates>
+          </Point>
+        </Placemark>
       </Folder>
     </Folder>
     <Folder>
@@ -97219,6 +97235,22 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.557467615523,34.074644000167</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#utility_Destroyed_&gt;50</styleUrl>
+          <description>Utility Misc Structure
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.524543268907,34.0514825083877</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#utility_Destroyed_&gt;50</styleUrl>
+          <description>Utility Misc Structure
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.527454028718,34.0382539386544</coordinates>
           </Point>
         </Placemark>
       </Folder>
