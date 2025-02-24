@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <!--Generated on 2025-02-24T14:19:17.414096-->
+    <!--Generated on 2025-02-24T18:28:09.493531-->
     <Style id="mobile_home_No_Damage">
       <IconStyle>
         <color>ff00ff00</color>
@@ -76171,6 +76171,14 @@ Destroyed (&gt;50%)</description>
             <coordinates>-118.522135334788,34.0424248119011</coordinates>
           </Point>
         </Placemark>
+        <Placemark>
+          <styleUrl>#single_family_multi_Destroyed_&gt;50</styleUrl>
+          <description>Single Family Residence Multi Story
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.506010308638,34.054159360225</coordinates>
+          </Point>
+        </Placemark>
       </Folder>
     </Folder>
     <Folder>
@@ -97315,6 +97323,14 @@ Destroyed (&gt;50%)</description>
 Destroyed (&gt;50%)</description>
           <Point>
             <coordinates>-118.518633950643,34.053009236235</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <styleUrl>#utility_Destroyed_&gt;50</styleUrl>
+          <description>Utility Misc Structure
+Destroyed (&gt;50%)</description>
+          <Point>
+            <coordinates>-118.649646622333,34.0527428973178</coordinates>
           </Point>
         </Placemark>
       </Folder>
