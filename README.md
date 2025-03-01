@@ -1,3 +1,8 @@
+# Project is now archived
+The damage assessments for the Palisades Fire are now complete, so no more updates will be posted. Leaving the repository up in case anyone wants to use the codebase as a base for a similar cause.
+---
+
+
 # 2025 Palisades Fire - Damage Assessment Data View Converter
 
 This script converts CAL FIRE's Damage Inspection (DINS) data for the 2025 Palisades Fire from GeoJSON format to a color-coded KML file for visualization in Google Earth or Google Earth Pro. This script changes the visual style of the original data from CAL FIRE by grouping the structures by type and damage level, using different icons for different structure types, and color coding the icons to indicate the amount of damage.
